@@ -1,0 +1,31 @@
+{
+  "name": "court-record-validator-api",
+  "version": "1.0.0",
+  "description": "Node.js API for uploading and validating court record files (PDF/JSON) with mock external validation.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "court",
+    "justice",
+    "validation"
+  ],
+  "author": "Breanna Pennywell",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
